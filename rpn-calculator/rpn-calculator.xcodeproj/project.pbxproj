@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF7014771BC8091D009598A5 /* calculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7014761BC8091D009598A5 /* calculatorBrain.m */; settings = {ASSET_TAGS = (); }; };
+		BF8FB28B1BC6FF7700F2097C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8FB28A1BC6FF7700F2097C /* main.m */; };
+		BF8FB28E1BC6FF7700F2097C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8FB28D1BC6FF7700F2097C /* AppDelegate.m */; };
+		BF8FB2911BC6FF7700F2097C /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8FB2901BC6FF7700F2097C /* CalculatorViewController.m */; };
+		BF8FB2941BC6FF7700F2097C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF8FB2921BC6FF7700F2097C /* Main.storyboard */; };
+		BF8FB2961BC6FF7700F2097C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF8FB2951BC6FF7700F2097C /* Assets.xcassets */; };
+		BF8FB2991BC6FF7700F2097C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF8FB2971BC6FF7700F2097C /* LaunchScreen.storyboard */; };
+		BF8FB2A41BC6FF7800F2097C /* rpn_calculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8FB2A31BC6FF7800F2097C /* rpn_calculatorTests.m */; };
+		BF8FB2AF1BC6FF7800F2097C /* rpn_calculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8FB2AE1BC6FF7800F2097C /* rpn_calculatorUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF8FB2A01BC6FF7800F2097C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF8FB27E1BC6FF7700F2097C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF8FB2851BC6FF7700F2097C;
+			remoteInfo = "rpn-calculator";
+		};
+		BF8FB2AB1BC6FF7800F2097C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF8FB27E1BC6FF7700F2097C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF8FB2851BC6FF7700F2097C;
+			remoteInfo = "rpn-calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF7014751BC8091D009598A5 /* calculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = calculatorBrain.h; sourceTree = "<group>"; };
+		BF7014761BC8091D009598A5 /* calculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = calculatorBrain.m; sourceTree = "<group>"; };
+		BF8FB2861BC6FF7700F2097C /* rpn-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rpn-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8FB28A1BC6FF7700F2097C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF8FB28C1BC6FF7700F2097C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF8FB28D1BC6FF7700F2097C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF8FB28F1BC6FF7700F2097C /* CalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
+		BF8FB2901BC6FF7700F2097C /* CalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
+		BF8FB2931BC6FF7700F2097C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF8FB2951BC6FF7700F2097C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF8FB2981BC6FF7700F2097C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF8FB29A1BC6FF7700F2097C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF8FB29F1BC6FF7800F2097C /* rpn-calculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rpn-calculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8FB2A31BC6FF7800F2097C /* rpn_calculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rpn_calculatorTests.m; sourceTree = "<group>"; };
+		BF8FB2A51BC6FF7800F2097C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF8FB2AA1BC6FF7800F2097C /* rpn-calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rpn-calculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8FB2AE1BC6FF7800F2097C /* rpn_calculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rpn_calculatorUITests.m; sourceTree = "<group>"; };
+		BF8FB2B01BC6FF7800F2097C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF8FB2831BC6FF7700F2097C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8FB29C1BC6FF7800F2097C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8FB2A71BC6FF7800F2097C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF8FB27D1BC6FF7700F2097C = {
+			isa = PBXGroup;
+			children = (
+				BF8FB2881BC6FF7700F2097C /* rpn-calculator */,
+				BF8FB2A21BC6FF7800F2097C /* rpn-calculatorTests */,
+				BF8FB2AD1BC6FF7800F2097C /* rpn-calculatorUITests */,
+				BF8FB2871BC6FF7700F2097C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF8FB2871BC6FF7700F2097C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF8FB2861BC6FF7700F2097C /* rpn-calculator.app */,
+				BF8FB29F1BC6FF7800F2097C /* rpn-calculatorTests.xctest */,
+				BF8FB2AA1BC6FF7800F2097C /* rpn-calculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF8FB2881BC6FF7700F2097C /* rpn-calculator */ = {
+			isa = PBXGroup;
+			children = (
+				BF8FB28C1BC6FF7700F2097C /* AppDelegate.h */,
+				BF8FB28D1BC6FF7700F2097C /* AppDelegate.m */,
+				BF8FB28F1BC6FF7700F2097C /* CalculatorViewController.h */,
+				BF8FB2901BC6FF7700F2097C /* CalculatorViewController.m */,
+				BF8FB2921BC6FF7700F2097C /* Main.storyboard */,
+				BF7014751BC8091D009598A5 /* calculatorBrain.h */,
+				BF7014761BC8091D009598A5 /* calculatorBrain.m */,
+				BF8FB2951BC6FF7700F2097C /* Assets.xcassets */,
+				BF8FB2971BC6FF7700F2097C /* LaunchScreen.storyboard */,
+				BF8FB29A1BC6FF7700F2097C /* Info.plist */,
+				BF8FB2891BC6FF7700F2097C /* Supporting Files */,
+			);
+			path = "rpn-calculator";
+			sourceTree = "<group>";
+		};
+		BF8FB2891BC6FF7700F2097C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF8FB28A1BC6FF7700F2097C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF8FB2A21BC6FF7800F2097C /* rpn-calculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF8FB2A31BC6FF7800F2097C /* rpn_calculatorTests.m */,
+				BF8FB2A51BC6FF7800F2097C /* Info.plist */,
+			);
+			path = "rpn-calculatorTests";
+			sourceTree = "<group>";
+		};
+		BF8FB2AD1BC6FF7800F2097C /* rpn-calculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF8FB2AE1BC6FF7800F2097C /* rpn_calculatorUITests.m */,
+				BF8FB2B01BC6FF7800F2097C /* Info.plist */,
+			);
+			path = "rpn-calculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF8FB2851BC6FF7700F2097C /* rpn-calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF8FB2B31BC6FF7800F2097C /* Build configuration list for PBXNativeTarget "rpn-calculator" */;
+			buildPhases = (
+				BF8FB2821BC6FF7700F2097C /* Sources */,
+				BF8FB2831BC6FF7700F2097C /* Frameworks */,
+				BF8FB2841BC6FF7700F2097C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rpn-calculator";
+			productName = "rpn-calculator";
+			productReference = BF8FB2861BC6FF7700F2097C /* rpn-calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF8FB29E1BC6FF7800F2097C /* rpn-calculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF8FB2B61BC6FF7800F2097C /* Build configuration list for PBXNativeTarget "rpn-calculatorTests" */;
+			buildPhases = (
+				BF8FB29B1BC6FF7800F2097C /* Sources */,
+				BF8FB29C1BC6FF7800F2097C /* Frameworks */,
+				BF8FB29D1BC6FF7800F2097C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF8FB2A11BC6FF7800F2097C /* PBXTargetDependency */,
+			);
+			name = "rpn-calculatorTests";
+			productName = "rpn-calculatorTests";
+			productReference = BF8FB29F1BC6FF7800F2097C /* rpn-calculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF8FB2A91BC6FF7800F2097C /* rpn-calculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF8FB2B91BC6FF7800F2097C /* Build configuration list for PBXNativeTarget "rpn-calculatorUITests" */;
+			buildPhases = (
+				BF8FB2A61BC6FF7800F2097C /* Sources */,
+				BF8FB2A71BC6FF7800F2097C /* Frameworks */,
+				BF8FB2A81BC6FF7800F2097C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF8FB2AC1BC6FF7800F2097C /* PBXTargetDependency */,
+			);
+			name = "rpn-calculatorUITests";
+			productName = "rpn-calculatorUITests";
+			productReference = BF8FB2AA1BC6FF7800F2097C /* rpn-calculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF8FB27E1BC6FF7700F2097C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Vincent Barresi";
+				TargetAttributes = {
+					BF8FB2851BC6FF7700F2097C = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					BF8FB29E1BC6FF7800F2097C = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = BF8FB2851BC6FF7700F2097C;
+					};
+					BF8FB2A91BC6FF7800F2097C = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = BF8FB2851BC6FF7700F2097C;
+					};
+				};
+			};
+			buildConfigurationList = BF8FB2811BC6FF7700F2097C /* Build configuration list for PBXProject "rpn-calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF8FB27D1BC6FF7700F2097C;
+			productRefGroup = BF8FB2871BC6FF7700F2097C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF8FB2851BC6FF7700F2097C /* rpn-calculator */,
+				BF8FB29E1BC6FF7800F2097C /* rpn-calculatorTests */,
+				BF8FB2A91BC6FF7800F2097C /* rpn-calculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF8FB2841BC6FF7700F2097C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8FB2991BC6FF7700F2097C /* LaunchScreen.storyboard in Resources */,
+				BF8FB2961BC6FF7700F2097C /* Assets.xcassets in Resources */,
+				BF8FB2941BC6FF7700F2097C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8FB29D1BC6FF7800F2097C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8FB2A81BC6FF7800F2097C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF8FB2821BC6FF7700F2097C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8FB2911BC6FF7700F2097C /* CalculatorViewController.m in Sources */,
+				BF8FB28E1BC6FF7700F2097C /* AppDelegate.m in Sources */,
+				BF8FB28B1BC6FF7700F2097C /* main.m in Sources */,
+				BF7014771BC8091D009598A5 /* calculatorBrain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8FB29B1BC6FF7800F2097C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8FB2A41BC6FF7800F2097C /* rpn_calculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8FB2A61BC6FF7800F2097C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8FB2AF1BC6FF7800F2097C /* rpn_calculatorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF8FB2A11BC6FF7800F2097C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF8FB2851BC6FF7700F2097C /* rpn-calculator */;
+			targetProxy = BF8FB2A01BC6FF7800F2097C /* PBXContainerItemProxy */;
+		};
+		BF8FB2AC1BC6FF7800F2097C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF8FB2851BC6FF7700F2097C /* rpn-calculator */;
+			targetProxy = BF8FB2AB1BC6FF7800F2097C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF8FB2921BC6FF7700F2097C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF8FB2931BC6FF7700F2097C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF8FB2971BC6FF7700F2097C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF8FB2981BC6FF7700F2097C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF8FB2B11BC6FF7800F2097C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF8FB2B21BC6FF7800F2097C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF8FB2B41BC6FF7800F2097C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "rpn-calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stanford.iOS.rpn-calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF8FB2B51BC6FF7800F2097C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "rpn-calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stanford.iOS.rpn-calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF8FB2B71BC6FF7800F2097C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "rpn-calculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stanford.iOS.rpn-calculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rpn-calculator.app/rpn-calculator";
+			};
+			name = Debug;
+		};
+		BF8FB2B81BC6FF7800F2097C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "rpn-calculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stanford.iOS.rpn-calculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rpn-calculator.app/rpn-calculator";
+			};
+			name = Release;
+		};
+		BF8FB2BA1BC6FF7800F2097C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "rpn-calculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stanford.iOS.rpn-calculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "rpn-calculator";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BF8FB2BB1BC6FF7800F2097C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "rpn-calculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stanford.iOS.rpn-calculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "rpn-calculator";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF8FB2811BC6FF7700F2097C /* Build configuration list for PBXProject "rpn-calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8FB2B11BC6FF7800F2097C /* Debug */,
+				BF8FB2B21BC6FF7800F2097C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF8FB2B31BC6FF7800F2097C /* Build configuration list for PBXNativeTarget "rpn-calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8FB2B41BC6FF7800F2097C /* Debug */,
+				BF8FB2B51BC6FF7800F2097C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF8FB2B61BC6FF7800F2097C /* Build configuration list for PBXNativeTarget "rpn-calculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8FB2B71BC6FF7800F2097C /* Debug */,
+				BF8FB2B81BC6FF7800F2097C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF8FB2B91BC6FF7800F2097C /* Build configuration list for PBXNativeTarget "rpn-calculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8FB2BA1BC6FF7800F2097C /* Debug */,
+				BF8FB2BB1BC6FF7800F2097C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF8FB27E1BC6FF7700F2097C /* Project object */;
+}
