@@ -1,5 +1,5 @@
 # stanford-cs193p #
-Course work for Stanford's CS course, CS193p. This course covers iPhone development
+Course work for [Stanford's CS193p Comp Sci course](http://web.stanford.edu/class/cs193p/cgi-bin/drupal/). This course covers iPhone development
 
 ## Week 1 ##
 
