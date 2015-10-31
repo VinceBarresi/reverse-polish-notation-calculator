@@ -61,8 +61,8 @@
 }
 
 - (IBAction)clearPressed:(id)sender {
-    self.display.text = 0;
-    self.fullDisplay.text = 0;
+    self.display.text = @"0";
+    self.fullDisplay.text = @"0";
     self.userIsInTheMiddleOfEnteringNumber = NO;
     [self.brain emptyStack];
 }
