@@ -13,6 +13,6 @@
 - (void)pushOperand:(double)operand;
 - (double)popOperand;
 - (double)performOperation:(NSString *)operation;
-
-
+- (void)emptyStack;
+- (void)removeTop;
 @end
