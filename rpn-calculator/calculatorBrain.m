@@ -79,7 +79,7 @@
         result = sqrt([self popOperand]);
     }
     else if ([operation isEqualToString:@"log"]) {
-        result = log([self popOperand]);
+        result = log10([self popOperand]);
     }
     else if ([operation isEqualToString:@"+ / -"]) {
         double tmp = [self popOperand];
