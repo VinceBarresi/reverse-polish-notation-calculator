@@ -89,6 +89,9 @@
             result = fabs(tmp);
         }
     }
+    else if ([operation isEqualToString:@"e"]) {
+        result = M_E;
+    }
     else if ([operation isEqualToString:@"π"]) {
         result = M_PI;
     }
